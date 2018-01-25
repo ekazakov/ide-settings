@@ -1,0 +1,7 @@
+<templateSet group="Zen HTML">
+  <template name="tpl" value="&lt;tabs-panel&gt;$END$&lt;/tabs-panel&gt;" description="&lt;tabs-panel&gt;&lt;/tabs-panel&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

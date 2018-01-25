@@ -1,0 +1,27 @@
+<templateSet group="BDD">
+  <template name="des" value="describe('$TEXT$', function () {&#10;    $END$&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('$TEXT$', function ($DONE$) {&#10;    $END$&#10;});" description="it" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DONE" expression="" defaultValue="&quot;done&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="aft" value="after$EACH$(function () {&#10;    $END$&#10;});" description="after" toReformat="false" toShortenFQNames="true">
+    <variable name="EACH" expression="" defaultValue="&quot;Each&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bef" value="before$EACH$(function () {&#10;    $END$&#10;});" description="before" toReformat="false" toShortenFQNames="true">
+    <variable name="EACH" expression="" defaultValue="&quot;Each&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,194 @@
+<templateSet group="Jasmine Assertions">
+  <template name="ntodef" value="expect($a$).not.toBeDefined();&#10;$END$" description="Jasmine expect().not.toBeDefined()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tobe" value="expect($a$).toBe($b$);&#10;$END$" description="Expect(X).toBe(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntobe" value="expect($a$).not.toBe($b$);&#10;$END$" description="Expect(X).not.toBe(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="toeq" value="expect($a$).toEqual($b$);&#10;$END$" description="Expect(X).toEqual(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tomatch" value="expect($a$).toMatch($b$);&#10;$END$" description="Expect(X).toMatch(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntomatch" value="expect($a$).not.toMatch($b$);&#10;$END$" description="Jasmine Expect(X).not.toMatch(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tobedef" value="expect($a$).toBeDefined();&#10;$END$" description="Expect(X).toBeDefined()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="toundef" value="expect($a$).toBeUndefined();&#10;$END$" description="Expect(X).toBeUndefined()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntoundef" value="expect($a$).not.toBeUndefined();&#10;$END$" description="Expect(X).toBeUndefined()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tonull" value="expect($a$).toBeNull();&#10;$END$" description="Expect(X).toBeNull()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntonull" value="expect($a$).not.toBeNull();&#10;$END$" description="Expect(X).not.toBeNull()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="totrue" value="expect($a$).toBeTruthy();&#10;$END$" description="Expect(X).toBeTruthy(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tofalse" value="expect($a$).toBeFalsy();&#10;$END$" description="Expect(X).toBeFalsy(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntofalse" value="expect($a$).not.toBeFalsy();&#10;$END$" description="Expect(X).not.toBeFalsy(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntotrue" value="expect($a$).not.toBeTruthy();&#10;$END$" description="Expect(X).not.toBeTruthy(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tocont" value="expect($a$).toContain($b$);&#10;$END$" description="Expect(X).toContain(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntocont" value="expect($a$).not.toContain($b$);&#10;$END$" description="Expect(X).not.toContain(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tolesst" value="expect($a$).toBeLessThan($b$);&#10;$END$" description="Expect(X).toBeLessThan(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="togrt" value="expect($a$).toBeGreaterThan($b$);&#10;$END$" description="Expect(X).toBeGreaterThan(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="toclose" value="expect($a$).toBeCloseTo($closeValue$, $precision$);&#10;$END$" description="Expect(X).toBeCloseTo(Y, Z)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="closeValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="precision" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tothrow" value="expect($a$).toThrow();&#10;$END$" description="Expect(X).toThrow()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ntothrow" value="expect($a$).not.toThrow();&#10;$END$" description="Expect(X).not.toThrow()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tocall" value="expect($a$).toHaveBeenCalled();&#10;$END$" description="Expect(X).toHaveBeenCalled()" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tocallw" value="expect($a$).toHaveBeenCalledWith($b$);&#10;$END$" description="Expect(X).toHaveBeenCalledWith(Y)" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tonum" value="expect($a$).toEqual(jasmine.any(Number));&#10;$END$" description="expect($a$).toEqual(jasmine.any(Number))" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="toarr" value="expect($a$).toEqual(jasmine.any(Array));&#10;$END$" description="expect($a$).toEqual(jasmine.any(Array))" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tofunc" value="expect($a$).toEqual(jasmine.any(Function));&#10;$END$" description="expect($a$).toEqual(jasmine.any(Function))" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="toobj" value="expect($a$).toEqual(jasmine.any(Object));&#10;$END$" description="expect($a$).toEqual(jasmine.any(Object))" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tostr" value="expect($a$).toEqual(jasmine.any(String));&#10;$END$" description="expect($a$).toEqual(jasmine.any(String))" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="toobjcont" value="expect($a$).toEqual(jasmine.objectContaining({}));&#10;$END$" description="expect($a$).toEqual(jasmine.objectContaining({}))" toReformat="true" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

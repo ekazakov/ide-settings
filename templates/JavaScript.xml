@@ -1,0 +1,67 @@
+<templateSet group="JavaScript">
+  <template name="fun" value="function $NAME$ ($options$) {&#10;  $END$&#10;}" description="Inserts function expression" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="options" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ifun" value="(function ($options$) {&#10;  $END$&#10;})($params$);" description="iff" toReformat="true" toShortenFQNames="true">
+    <variable name="options" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="method" value="$name$() {&#10;    $END$&#10;}" description="Inserts object method" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;method&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function ($PARAM$) {&#10;  $END$&#10;}" description="Inserts function expression" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="clog" value="console.log($end$);" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="us" value="'use strict';&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="watch" value="scope.$watch(&#10;    (scope) =&gt; $ONE$,&#10;    (newVal, oldVal, scope) =&gt; $TWO$);" description="Angular like $watch function" toReformat="false" toShortenFQNames="true">
+    <variable name="ONE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TWO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dig" value="scope.$digest();" description="Angular like $digest" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tobe" value="expect($EXP$).toBe($TWO$);$END$" description="expect().toBe" toReformat="false" toShortenFQNames="true">
+    <variable name="EXP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TWO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="toeq" value="expect($EXP$).toEqual($TWO$);$END$" description="expect.toEqual" toReformat="false" toShortenFQNames="true">
+    <variable name="EXP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TWO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wcol" value="scope.$watchCollection(&#10;    scope =&gt; $ONE$,&#10;    (newValue, oldValue, scope) =&gt; {&#10;        $TWO$&#10;    });$END$" description="Angular like $watchCollection" toReformat="true" toShortenFQNames="true">
+    <variable name="ONE" expression="" defaultValue="&quot;scope.aValue&quot;" alwaysStopAt="true" />
+    <variable name="TWO" expression="" defaultValue="&quot;valueProvided = newValue;                     scope.counter++;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

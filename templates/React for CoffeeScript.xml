@@ -1,0 +1,63 @@
+<templateSet group="React for CoffeeScript">
+  <template name="cwm" value="componentWillMount: -&gt;&#10;    $end$" description="React - componentWillMount" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="gis" value="getInitialState: -&gt;&#10;    $end$" description="React - getInitialState" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="$Component$ = React.createClass&#10;    displayName: &quot;$Component$&quot;&#10;    &#10;    render: -&gt;&#10;        div {}, &quot;Hello&quot;&#10;        $end$" description="React - create component class" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="Component" expression="" defaultValue="&quot;Component&quot;" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cdm" value="componentDidMount: -&gt;&#10;    $end$" description="React - componentDidMount" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="gdf" value="getDefaultProps: -&gt;&#10;    $end$" description="React - getDefaultProps" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cwrp" value="componentWillReceiveProps: (nextProps) -&gt;&#10;    $end$" description="React - componentWillReceiveProps" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="scu" value="shouldComponentUpdate: (nextProps, nextState) -&gt;&#10;    $end$" description="React - shouldComponentUpdate" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cwu" value="componentWillUpdate: (nextProps, nextState) -&gt;&#10;    $end$" description="React - componentWillUpdate" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cdu" value="componentDidUpdate: (prevProps, prevState) -&gt;&#10;    $end$" description="React - componentDidUpdate" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="cwun" value="componentWillUnmount: -&gt;&#10;    $end$" description="React - componentWillUnmount" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

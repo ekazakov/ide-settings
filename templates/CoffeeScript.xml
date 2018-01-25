@@ -1,0 +1,54 @@
+<templateSet group="CoffeeScript">
+  <template name="des" value="describe &quot;$TEXT$&quot;, -&gt;&#10;    $END$" description="mocha - describe" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it &quot;$TEXT$&quot;$func$&#10;    $end$" description="mocha - it" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="func" expression="" defaultValue="&quot;, -&gt;&quot;" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="bef" value="before$All$ -&gt;&#10;    $end$" description="mocha - before" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="All" expression="" defaultValue="&quot;Each&quot;" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="aft" value="after$All$ -&gt;&#10;    $end$" description="mocha - after" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="All" expression="" defaultValue="&quot;Each&quot;" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="exp" value="module.exports = $module$" description="module.exports" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="req" value="$module$ = require &quot;$path$$module$&quot;" description="require module" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="&quot;./&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log" description="console.log" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+  <template name="strict" value="&quot;use strict&quot;" description="Strict mode" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

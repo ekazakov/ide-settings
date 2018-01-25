@@ -1,0 +1,32 @@
+<templateSet group="Jasmine Spy">
+  <template name="spyon" value="spyOn($objToSpy$, '$objAttribute$')&#10;$END$" description="spyOn(Obj, Key)" toReformat="false" toShortenFQNames="true">
+    <variable name="objToSpy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objAttribute" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spyonthrough" value="spyOn($objToSpy$, '$objAttribute$').andCallThrough()&#10;$END$" description="spyOn(Obj, Key).andCallThrough()" toReformat="false" toShortenFQNames="true">
+    <variable name="objToSpy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objAttribute" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spyonreturn" value="spyOn($objToSpy$, '$objAttribute$').andReturn($returnValue$)&#10;$END$" description="spyOn(Obj, Key).andReturn()" toReformat="false" toShortenFQNames="true">
+    <variable name="objToSpy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objAttribute" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="returnValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spyoncallfake" value="spyOn($objToSpy$, '$objAttribute$').andCallFake($function$)&#10;$END$" description="spyOn(Obj, Key).andCallFake(fct)" toReformat="false" toShortenFQNames="true">
+    <variable name="objToSpy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objAttribute" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="function" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
