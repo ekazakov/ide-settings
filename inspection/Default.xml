@@ -1,4 +1,5 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
+  <inspection_tool class="CssInvalidHtmlTagReference" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSUndeclaredVariable" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
 </profile>
