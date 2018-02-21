@@ -2,25 +2,10 @@
   <component name="FindSettings">
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
+    <option name="localCaseSensitive" value="true" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
-      <mask>*.as</mask>
-      <mask>*.mxml</mask>
-      <mask>*.php</mask>
-      <mask>*.html.twig</mask>
-      <mask>*.html</mask>
-      <mask>*.j</mask>
-      <mask>*.</mask>
-      <mask>*.c</mask>
-      <mask>*.cs</mask>
-      <mask>*.css</mask>
-      <mask>*.js</mask>
-    </recentFileMasks>
   </component>
 </application>
