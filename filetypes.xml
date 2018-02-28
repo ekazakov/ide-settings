@@ -5,9 +5,9 @@
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern=".npmrc" type="Npm file" />
       <mapping pattern=".watchmanconfig" type="PLAIN_TEXT" />
-      <mapping ext="opts" type="PLAIN_TEXT" />
-      <mapping ext="torrent" type="PLAIN_TEXT" />
       <mapping ext="opt" type="PLAIN_TEXT" />
+      <mapping ext="torrent" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping pattern="detailedWeatherCard.scss" type="Sass" />
       <mapping ext="conf" type="nginx file type" />
     </extensionMap>
