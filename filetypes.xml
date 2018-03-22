@@ -7,7 +7,6 @@
       <mapping pattern=".watchmanconfig" type="PLAIN_TEXT" />
       <mapping ext="opt" type="PLAIN_TEXT" />
       <mapping ext="torrent" type="PLAIN_TEXT" />
-      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping pattern="detailedWeatherCard.scss" type="Sass" />
       <mapping ext="conf" type="nginx file type" />
     </extensionMap>
