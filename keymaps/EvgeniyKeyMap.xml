@@ -266,6 +266,10 @@
     <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="RecentFiles" />
+  <action id="ReformatCode" />
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
