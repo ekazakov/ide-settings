@@ -1,11 +1,11 @@
 <templateSet group="BDD">
-  <template name="des" value="describe('$TEXT$', function () {&#10;    $END$&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
+  <template name="des" value="describe('$TEXT$', () =&gt; {&#10;    $END$&#10;});" description="describe" toReformat="false" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="it" value="it('$TEXT$', function ($DONE$) {&#10;    $END$&#10;});" description="it" toReformat="false" toShortenFQNames="true">
+  <template name="it" value="it('$TEXT$', ($DONE$) =&gt; {&#10;    $END$&#10;});" description="it" toReformat="false" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DONE" expression="" defaultValue="&quot;done&quot;" alwaysStopAt="true" />
     <context>
@@ -21,6 +21,14 @@
   <template name="bef" value="before$EACH$(function () {&#10;    $END$&#10;});" description="before" toReformat="false" toShortenFQNames="true">
     <variable name="EACH" expression="" defaultValue="&quot;Each&quot;" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="test" value="test('$TEXT$', ($DONE$) =&gt; {&#10;    $END$&#10;});" description="test" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DONE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
