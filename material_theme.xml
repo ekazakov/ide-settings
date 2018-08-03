@@ -1,6 +1,6 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.2.3" />
+    <option name="version" value="2.7.0" />
     <option name="highlightColor" value="80cbc4" />
     <option name="highlightColorEnabled" value="true" />
     <option name="highlightThickness" value="1" />
@@ -15,5 +15,6 @@
     <option name="accentScrollbars" value="false" />
     <option name="compactDropdowns" value="true" />
     <option name="monochromeIcons" value="true" />
+    <option name="userId" value="-6a465af5:165017d3df9:-7fff" />
   </component>
 </application>
