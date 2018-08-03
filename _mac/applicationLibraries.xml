@@ -8,6 +8,14 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/jest-each" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/jest-matcher-utils" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/jest-matchers" type="javaScript">
       <CLASSES />
       <SOURCES />
