@@ -40,6 +40,7 @@
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
+  <action id="Console.History.Browse" />
   <action id="Console.Jdbc.Execute" />
   <action id="Console.Jpa.Execute" />
   <action id="Console.Jpa.GenerateSql" />
@@ -350,6 +351,9 @@
   </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="TabSwitchPlugin.SwitchTab">
+    <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
   <action id="TypeHierarchy" />
   <action id="UnselectPreviousOccurrence" />
