@@ -118,6 +118,10 @@
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
@@ -153,6 +157,7 @@
   <action id="EditorRightWithSelection">
     <keyboard-shortcut first-keystroke="shift right" />
     <keyboard-shortcut first-keystroke="ctrl meta l" />
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
