@@ -1,9 +1,13 @@
 <application>
   <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="JSX.jsx" reformat="true" live-template-enabled="true" />
+    </default_templates>
     <internal_templates>
-      <template name="HTML File.html" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="HTML4 File.html" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="XHTML File.xhtml" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="JavaScript File.js" reformat="true" live-template-enabled="true" enabled="true" />
     </internal_templates>
+    <code_templates>
+      <template name="JavaScript Implemented Method Body.js" reformat="true" live-template-enabled="true" enabled="true" />
+    </code_templates>
   </component>
 </application>
