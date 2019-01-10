@@ -312,7 +312,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="Switcher">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="TypeHierarchy" />
   <action id="UnselectPreviousOccurrence" />
