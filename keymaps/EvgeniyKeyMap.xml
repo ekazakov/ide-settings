@@ -40,7 +40,6 @@
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
-  <action id="Console.History.Browse" />
   <action id="Console.Jdbc.Execute" />
   <action id="Console.Jpa.Execute" />
   <action id="Console.Jpa.GenerateSql" />
@@ -118,10 +117,6 @@
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
-  <action id="EditorLeftWithSelection">
-    <keyboard-shortcut first-keystroke="shift left" />
-    <keyboard-shortcut first-keystroke="shift ctrl h" />
-  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
@@ -157,7 +152,6 @@
   <action id="EditorRightWithSelection">
     <keyboard-shortcut first-keystroke="shift right" />
     <keyboard-shortcut first-keystroke="ctrl meta l" />
-    <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
@@ -262,20 +256,16 @@
     <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
   </action>
   <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="shift alt o" />
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="alt o" />
+    <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
     <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="RecentFiles" />
-  <action id="ReformatCode" />
-  <action id="ReformatWithPrettierAction">
-    <keyboard-shortcut first-keystroke="meta alt l" />
-  </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -306,39 +296,6 @@
   <action id="SurroundWithLiveTemplate">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="meta e" />
   </action>
-  <action id="Switch To Last Tab">
-    <keyboard-shortcut first-keystroke="alt period" />
-  </action>
-  <action id="Switch To Tab #1">
-    <keyboard-shortcut first-keystroke="alt 1" />
-  </action>
-  <action id="Switch To Tab #10">
-    <keyboard-shortcut first-keystroke="alt 0" />
-  </action>
-  <action id="Switch To Tab #2">
-    <keyboard-shortcut first-keystroke="alt 2" />
-  </action>
-  <action id="Switch To Tab #3">
-    <keyboard-shortcut first-keystroke="alt 3" />
-  </action>
-  <action id="Switch To Tab #4">
-    <keyboard-shortcut first-keystroke="alt 4" />
-  </action>
-  <action id="Switch To Tab #5">
-    <keyboard-shortcut first-keystroke="alt 5" />
-  </action>
-  <action id="Switch To Tab #6">
-    <keyboard-shortcut first-keystroke="alt 6" />
-  </action>
-  <action id="Switch To Tab #7">
-    <keyboard-shortcut first-keystroke="alt 7" />
-  </action>
-  <action id="Switch To Tab #8">
-    <keyboard-shortcut first-keystroke="alt 8" />
-  </action>
-  <action id="Switch To Tab #9">
-    <keyboard-shortcut first-keystroke="alt 9" />
-  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
@@ -356,9 +313,6 @@
   </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
-  </action>
-  <action id="TabSwitchPlugin.SwitchTab">
-    <keyboard-shortcut first-keystroke="meta alt e" />
   </action>
   <action id="TypeHierarchy" />
   <action id="UnselectPreviousOccurrence" />
