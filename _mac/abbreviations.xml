@@ -9,10 +9,6 @@
         <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
-      <action id="com.wallaby.javascript.actions.ShowFileUncoveredRangesAction">
-        <abbreviation name="w" />
-        <abbreviation name="wallaby" />
-      </action>
       <action id="com.wallaby.javascript.actions.RunTestFileAction">
         <abbreviation name="w" />
         <abbreviation name="wallaby" />
@@ -25,12 +21,19 @@
         <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
-      <action id="EditorNextWordWithSelection" />
-      <action id="ShowUmlDiagram" />
+      <action id="com.wallaby.javascript.actions.ShowFileUncoveredRangesAction">
+        <abbreviation name="w" />
+        <abbreviation name="wallaby" />
+      </action>
       <action id="com.wallaby.javascript.actions.RunAllTestsAction">
         <abbreviation name="w" />
         <abbreviation name="wallaby" />
       </action>
+      <action id="com.wallaby.javascript.actions.ShowValueAction">
+        <abbreviation name="wallaby" />
+      </action>
+      <action id="ShowUmlDiagram" />
+      <action id="EditorNextWordWithSelection" />
     </abbreviations>
   </component>
 </application>
