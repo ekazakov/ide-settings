@@ -70,4 +70,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="call" value="$completion$($selection$)$end$" description="Call function" toReformat="false" toShortenFQNames="true">
+    <variable name="completion" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="selection" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+    </context>
+  </template>
 </templateSet>
